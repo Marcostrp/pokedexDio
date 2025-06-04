@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="content">
+        <img src="./src/img/International_Pokémon_logo.svg.png" style="width: 70vw; padding-left: 3.5rem;" alt="logo">
+        <h1>Eu escolho você!</h1>
+
+        <ol class="pokemons" id="pokemonList">
+            <!-- <li class="pokemon">
+                <span class="number">#001</span>
+                <span class="name">Bulbasaur</span>
+                <div class="details">
+                    <ol class="types">
+                        <li id="type">Grass</li>
+                        <li id="type">Poison</li>
+                    </ol>
+                    <img src="./src/img/bulbasaur-seeklogo.png" alt="">
+                </div>
+            </li> -->
+         
+        </ol>
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">
+            Load More
+            </button>
+        </div>
+        
+    </section>
+
+
+    <script src="./src/js/pokemon-model.js"></script>
+    <script src="./src/js/poke-api.js"></script>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
