@@ -17,6 +17,7 @@
     }
 
     img#pokeImage {
+        max-width: 15vw;
         width: 25vw;
     }
 
